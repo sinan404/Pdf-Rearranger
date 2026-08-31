@@ -1,0 +1,10 @@
+{
+  "description": "Experience stunning visuals with a seamless scroll effect, enhancing user engagement for websites and portfolios seeking a modern touch.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
