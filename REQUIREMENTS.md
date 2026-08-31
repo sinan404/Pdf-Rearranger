@@ -47,7 +47,7 @@ The **PDF Rearranger & Micro-Sizer** is a client-side React/Vite web application
 | **`pdf-lib`** | `^1.17.1` | In-memory PDF document manipulation, extraction, merging, and JPEG embedding |
 | **`pdfjs-dist`** | `^5.7.284` | Browser-based PDF rasterization & rendering engine |
 | **`motion`** | `^12.40.0` | Declarative animations and UI transitions |
-| **`canvas`** | `^3.2.3` | HTML5 Canvas utilities |
+| **`HTML5 Canvas`** | *Native API* | Client-side 2D rasterization & page preview rendering |
 
 ### 3.2 Development & Build Dependencies (`devDependencies`)
 | Package | Version | Purpose |
