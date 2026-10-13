@@ -1,0 +1,10 @@
+{
+  "description": "Transforms existing websites by applying a precise Swiss International Style design system for clear, maintainable, and visually striking user interfaces.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
