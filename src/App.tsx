@@ -447,7 +447,7 @@ export default function App() {
       }
 
       const bytes = await output.save();
-      const blob = new Blob([bytes], { type: "application/pdf" });
+      const blob = new Blob([new Uint8Array(bytes)], { type: "application/pdf" });
       const url = URL.createObjectURL(blob);
       const suffix = [
         options.rearrange ? "rearranged" : "",
