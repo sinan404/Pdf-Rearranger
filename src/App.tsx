@@ -140,7 +140,7 @@ function Logo({
     >
       <img
         className="size-10 shrink-0 object-contain md:size-12"
-        src="/microbit-logo.png"
+        src={`${import.meta.env.BASE_URL}microbit-logo.png`}
         alt=""
       />
       <span className="text-base font-black uppercase leading-none tracking-tighter md:text-lg">
@@ -193,7 +193,7 @@ function Header({ onStart }: { onStart: () => void }) {
           onClick={onStart}
         >
           <span>Upload now</span>
-          <ArrowDown size={17} strokeWidth={2.5} />
+          <ArrowUpRight size={17} strokeWidth={2.5} />
         </button>
       </div>
 
